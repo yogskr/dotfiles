@@ -1,0 +1,8 @@
+{
+    "diagnostics.globals": [
+        "vim",
+        "h1",
+        "LazyVim",
+        "nvim_bufferline"
+    ]
+}

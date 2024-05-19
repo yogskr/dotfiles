@@ -1,0 +1,20 @@
+import = [
+  "~/.config/alacritty/themes/themes/kanagawa_wave.toml"
+]
+
+[shell]
+program = "/bin/bash"
+args = ["-l", "-c", "tmux attach || tmux"]
+
+[env]
+term = "xterm=256color"
+
+[window]
+padding = { x = 5, y = 5 }
+dimensions = { columns = 85, lines = 32 }
+decorations = "None"
+option_as_alt = "Both"
+opacity = 1.0
+
+[font]
+normal = { family = "JetBrains Mono", style= "Regular" }
